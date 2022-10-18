@@ -1,0 +1,15 @@
+{
+  "name": "bot-template-ts",
+  "version": "1.0.0",
+  "description": "Bot template in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Winv",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "typescript": "^4.8.4"
+  }
+}
