@@ -1,11 +1,10 @@
 import { Client } from "discord.js";
-import { Commands } from '../commands/commands';
+import { Commands } from "../utils/commands";
 
 export default (client: Client): void => {
-    client.on("ready", async (client: Client) => {
+  client.on("ready", async (client: Client) => {
+    await client.application?.commands.set(Commands);
 
-        await client.application?.commands.set(Commands);
-
-        console.log(client.user?.username + " est allumé !");
-    });
-}
+    console.log(client.user?.username + " est allumé !");
+  });
+};
