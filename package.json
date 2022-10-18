@@ -2,14 +2,16 @@
   "name": "bot-template-ts",
   "version": "1.0.0",
   "description": "Bot template in TypeScript",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node app.ts"
   },
   "author": "Winv",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
     "typescript": "^4.8.4"
   }
 }
