@@ -5,6 +5,6 @@ export default (client: Client): void => {
   client.on("ready", async (client: Client) => {
     await client.application?.commands.set(Commands);
 
-    console.log(client.user?.username + " est allumé !");
+    console.log(client.user?.username + " is ready !");
   });
 };
