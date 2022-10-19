@@ -4,7 +4,7 @@
   "description": "Bot template in TypeScript",
   "main": "app.ts",
   "scripts": {
-    "start": "ts-node app.ts"
+    "start": "ts-node ./app.ts"
   },
   "author": "Winv",
   "license": "ISC",
