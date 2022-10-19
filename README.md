@@ -18,6 +18,6 @@ _Les commandes npm ci-dessous doivent toutes être exécutées depuis le répert
 
 ---
 
-**Winv**
+**Winv**<br>
 Github : @winvdaking<br/>
 Discord : 𝒲𝑖𝑛𝑣#3639
